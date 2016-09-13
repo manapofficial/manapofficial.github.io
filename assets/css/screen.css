@@ -190,7 +190,8 @@ for small screen(<720px):
     margin: 0 0;
     padding: 0;
     background: url(../images/pc/manap_logo.jpg) no-repeat center;
-    background-size: 123px 21px;
+    /*    background-size: 123px 21px;*/
+    background-size: 30px 30px;
 }
 
 #menu {
@@ -343,6 +344,11 @@ for small screen(<720px):
 
 #link-facebook {
     background-image: url(../images/pc/icon_face.png);
+}
+
+#link-instagram {
+    background-image: url(../images/pc/icon_git.png);
+    /* Instagram 으로 [[변경]], px맞추기, 이미지 크기 등 */
 }
 
 #link-twitter {
@@ -1220,6 +1226,10 @@ body.page-template {
         background-image: url(../images/mo/icon_twit.png);
     }
 
+    #links-instagram {
+        background-image: url(../images/mo/icon_twit.png);
+    }
+
     #links-rss {
         background-image: url(../images/mo/icon_rss.png);
     }
@@ -1547,6 +1557,10 @@ body.page-template {
 
     #link-facebook {
         background-image: url(../images/mo/icon_face@2x.png);
+    }
+
+    #link-instagram {
+        background-image: url(../images/mo/icon_git@2x.png);
     }
 
     #link-twitter {
