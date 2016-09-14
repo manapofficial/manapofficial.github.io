@@ -1,0 +1,11 @@
+---
+layout: news
+image: /files/covers/solid-state-logic.jpg
+title: This is MANAP !!
+---
+<ul id="post-list">
+    {% for post in paginator.posts %}
+        {% include item.html %}
+    {% endfor %}
+</ul>
+{% include pagination.html %}

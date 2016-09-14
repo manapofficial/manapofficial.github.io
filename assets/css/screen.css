@@ -649,7 +649,7 @@ a.tag:hover {
     background-size: 6px 11px;
 }
 
-/* home */
+/* news */
 /*
 +#cover-----------------------------------------+
 |                                               |
@@ -661,7 +661,7 @@ a.tag:hover {
 
 +#content---------------------------------------+
 |                                               |
-|+#home-content--------------------------------+|
+|+#news-content--------------------------------+|
 ||                                             ||
 ||+#post-list---------------------------------+||
 |||                                           |||
@@ -687,16 +687,16 @@ a.tag:hover {
 +-----------------------------------------------+
 */
 
-body.home-template {
+body.news-template {
 }
 
-body.home-template #cover,
+body.news-template #cover,
 body.archive-template #cover,
 body.page-template #cover {
     height: 460px;
 }
 
-body.home-template #cover {
+body.news-template #cover {
     background-image: url(../images/default_blog_cover.jpg);
 }
 
@@ -716,13 +716,13 @@ body.tag-template #cover {
     background-image: url(../images/default_tag_cover.jpg);
 }
 
-body.home-template #cover p,
+body.news-template #cover p,
 body.archive-template #cover p,
 body.page-template #cover p {
     font-size: 16px;
 }
 
-body.home-template #cover h1 + p,
+body.news-template #cover h1 + p,
 body.archive-template #cover h1 + p,
 body.page-template #cover h1 + p {
     padding-top: 26px;
@@ -730,7 +730,7 @@ body.page-template #cover h1 + p {
 
 /* @@iolo */
 
-body.home-template #navbar,
+body.news-template #navbar,
 body.archive-template #navbar,
 body.page-template #navbar {
     padding-top: 26px; /* 60px(height) = 26 + 14 + 20 */
@@ -1400,11 +1400,11 @@ body.page-template {
         background-size: 10px 15px;
     }
 
-    /* home */
-    body.home-template {
+    /* news */
+    body.news-template {
     }
 
-    body.home-template #navbar,
+    body.news-template #navbar,
     body.archive-template #navbar,
     body.page-template #navbar {
         padding-top: 16px; /* 40px(height) = 16 + 14 + 10 */
