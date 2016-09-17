@@ -216,7 +216,7 @@ for small screen(<720px):
 }
 
 #menu > li > a {
-    padding: 0 16px;
+    padding: 0 30px;
 }
 
 #menu > li.active,
@@ -1516,6 +1516,10 @@ body.page-template {
     #forkme {
         margin-right: -20px;
     }
+
+    p#copyright {
+        text-align: center;
+    }
 }
 
 /* responsive images - mobile(2x) */
@@ -1602,6 +1606,10 @@ body.page-template {
     #cover-author-image {
         background-image: url(../images/mo/default_pic_l@3x.png);
     }
+
+    p#copyright {
+        text-align: center;
+    }
 }
 
 /* responsive images - mobile(3x) */
@@ -1683,5 +1691,9 @@ body.page-template {
 
     #cover-author-image {
         background-image: url(../images/mo/default_pic_l@3x.png);
+    }
+
+    #footer-menu, #copyright {
+        text-align: center;
     }
 }
