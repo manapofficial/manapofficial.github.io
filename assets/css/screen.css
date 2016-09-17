@@ -1528,7 +1528,7 @@ body.page-template {
     #logo {
 /*        background-image: url(../images/mo/tech_logo@2x.png);*/
       background-image: url(/manap_image/manap_logo2.png);
-      background-size: 128px 25px;
+      background-size: 100px 23px;
     }
 
     #menu-toggle {
