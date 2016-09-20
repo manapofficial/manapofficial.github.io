@@ -6,15 +6,15 @@
         <span class="sr-only">Toggle Search Form</span>
     </button>
     <a id="logo" href="/">
-        <span class="sr-only">KakaoTech</span>
+        <span class="sr-only">MANAP</span>
     </a>
-    <form id="search">
-        <input id="searchQueryEdit" name="q" type="search" placeholder="Search..." value="" />
-    </form>
-    <ul id="menu" class="nav">
-        <li class="{% if page.url != '/news/' and page.url != '/sns/' and page.url != '/contact/' %} active {% endif %}"><a href="{{ base_path }}/">ARTISTS</a></li>
-        <li class="{% if page.url == '/news/' %} active {% endif %}"><a href="{{ base_path }}/news/">NEWS</a></li>
-        <li class="{% if page.url == '/sns/' %} active {% endif %}"><a href="{{ base_path }}/sns/">SNS</a></li>
-        <li class="{% if page.url == '/contact/' %} active {% endif %}"><a href="{{ base_path }}/contact/">CONTACT</a></li>
-    </ul>
+<form id="search">
+    <input id="searchQueryEdit" name="q" type="search" placeholder="Search..." value="" />
+</form>
+<ul id="menu" class="nav">
+    <li class="{% if page.url != '/news/' and page.url != '/sns/' and page.url != '/contact/' %} active {% endif %}"><a href="{{ base_path }}/">ARTISTS</a></li>
+    <li class="{% if page.url == '/news/' %} active {% endif %}"><a href="{{ base_path }}/news/">NEWS</a></li>
+    <li class="{% if page.url == '/sns/' %} active {% endif %}"><a href="{{ base_path }}/sns/">SNS</a></li>
+    <li class="{% if page.url == '/contact/' %} active {% endif %}"><a href="{{ base_path }}/contact/">CONTACT</a></li>
+</ul>
 </div><!-- #header -->
