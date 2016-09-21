@@ -1522,7 +1522,7 @@ body.page-template {
     }
 }
 
-/* responsive images - mobile(2x) */
+/* responsive images - mobile(2x),  */
 
 @media (-webkit-min-device-pixel-ratio: 2) {
     body {
