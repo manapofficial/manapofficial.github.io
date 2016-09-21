@@ -1153,7 +1153,7 @@ body.page-template {
         height: 50px;
         margin: 0 auto;
         /*  background-image: url(../images/mo/tech_logo.png);*/
-        background-image: url(../images/pc/manap_logo.png);
+        background-image: url(../images/mo/manap_logo@3x.png);
         background-size: 100px 24px;
     }
 
@@ -1531,7 +1531,7 @@ body.page-template {
 
     #logo {
 /*        background-image: url(../images/mo/tech_logo@2x.png);*/
-      background-image: url(../images/mo/manap_logo@2x.png);
+      background-image: url(../images/mo/manap_logo@3x.png);
       background-size: 100px 23px;
     }
 
